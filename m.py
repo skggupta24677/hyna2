@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\nBy Indian Watchdogs @Indian_Hackers_Team"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\nBy Welcome to Rohit VIP DDoS 😎 @Mr_Rohit101 @"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\nBy Indian Watchdogs @Indian_Hackers_Team"
+        response = "You Are Not Authorized To Use This Command.\nBy Welcome to Rohit VIP DDoS @Mr_Rohit101😎"
 
     bot.reply_to(message, response)
 
